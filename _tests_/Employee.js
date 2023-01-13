@@ -1,6 +1,6 @@
 const Employee = require("../lib/Employee");
 
-describe("Can instantiate Employee and set/get all parameters", () => {
+describe("Can instantiate Employee and set/get parameters", () => {
   it("can instantiate Employeee Instance", () => {
     const e = new Employee();
     expect(typeof(e)).toBe("object");
