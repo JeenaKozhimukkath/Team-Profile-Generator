@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateTeam = require("./lib/generateTeam.js")
 const Intern = require("./lib/Intern.js");
 const Engineer = require("./lib/Engineer.js");
 const Manager = require("./lib/Manager.js");
@@ -45,7 +46,7 @@ const questions = async () => {
         {
             type: 'input',
             message: "Please enter Email address :",
-            name: "name",
+            name: "email",
             validate: emailVal => {
                 if (emailVal) {
                     return true;
@@ -150,11 +151,19 @@ async function promptQuestions() {
     if (memberOutput.addNewMember === 'Add a new member') {
         return promptQuestions();
     }
-    return generateTeam();
+    return generateHTML();
 }
 
 promptQuestions();
 
-function generateTeam () {
-
+function generateHTML () {
+    fs.writeFile("./assets/index.html",
+    generateTeam(addTeamMember),
+    'utf8', 
+    err => {
+        if (err) {
+            throw (err);
+        }
+        console.log('File created!');
+    });
 }
