@@ -33,4 +33,4 @@ THEN I exit the application, and the HTML is generated
 https://github.com/JeenaKozhimukkath/Team-Profile-Generator.git
 
 # Video
-[Untitled_ Jan 20, 2023 5_52 PM.webm](https://user-images.githubusercontent.com/39594923/213819615-1a006945-f6f3-46fc-8462-4c8fef2bba45.webm)
+https://watch.screencastify.com/v/NQyxufv5uTuWfscMG3F4
