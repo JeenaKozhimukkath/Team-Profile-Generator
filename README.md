@@ -26,9 +26,11 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 # Screenshot
+<img width="1540" alt="Screen Shot 2023-01-20 at 4 36 59 PM" src="https://user-images.githubusercontent.com/39594923/213815980-bb5dab73-ccc2-4a3b-8bc2-5814041cd006.png">
 
 
 # Repository
 https://github.com/JeenaKozhimukkath/Team-Profile-Generator.git
 
 # Video
+[Untitled_ Jan 20, 2023 5_52 PM.webm](https://user-images.githubusercontent.com/39594923/213819615-1a006945-f6f3-46fc-8462-4c8fef2bba45.webm)
