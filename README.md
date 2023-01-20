@@ -33,4 +33,12 @@ THEN I exit the application, and the HTML is generated
 https://github.com/JeenaKozhimukkath/Team-Profile-Generator.git
 
 # Video
-https://watch.screencastify.com/v/NQyxufv5uTuWfscMG3F4
+
+
+https://user-images.githubusercontent.com/39594923/213820585-51da0ed1-201a-46db-b41a-03baec15798e.mp4
+
+
+
+
+
+
